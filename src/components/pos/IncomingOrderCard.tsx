@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Check, X, Eye, MapPin, Clock, ZoomIn } from 'lucide-react'; // <--- Icono ZoomIn
+import { Check, X, Eye, MapPin, Clock } from 'lucide-react'; // <--- Icono ZoomIn
 import type { Order } from '../../types';
 
 interface IncomingOrderCardProps {

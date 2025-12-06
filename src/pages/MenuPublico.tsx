@@ -6,7 +6,7 @@ import type { Product } from '../types';
 import Navbar from '../components/ui/Navbar';
 import ProductCard from '../components/menu/ProductCard';
 import ProductModal from '../components/menu/ProductModal';
-import { Loader2, Search, Frown } from 'lucide-react';
+import { Search, Frown } from 'lucide-react';
 import { toast } from 'sonner';
 import { useCart } from '../context/CartContext';
 

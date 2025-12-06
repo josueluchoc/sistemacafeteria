@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { supabase } from '../supabaseClient';
 import KitchenOrderCard from '../components/kitchen/KitchenOrderCard';
-import { Loader2, ChefHat, History, Info, RefreshCw } from 'lucide-react';
+import { Loader2, ChefHat, History, Info } from 'lucide-react';
 import { toast } from 'sonner';
 
 export default function CocinaView() {

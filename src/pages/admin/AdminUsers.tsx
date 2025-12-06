@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../../supabaseClient';
 import AdminLayout from '../../components/admin/AdminLayout';
-import { Loader2, Shield, User, Save, Search } from 'lucide-react';
+import { Loader2, User, Save, Search } from 'lucide-react';
 import { toast } from 'sonner';
 import type { UserProfile, UserRole } from '../../types';
 

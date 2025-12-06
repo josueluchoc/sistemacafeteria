@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../supabaseClient';
 import AdminLayout from '../../components/admin/AdminLayout';
-import { QrCode, Smartphone, User, Lock, Unlock, Upload, Loader2, AlertTriangle, Clock, History, Edit2, X } from 'lucide-react';
+import { Smartphone, User, Lock, Unlock, Upload, Loader2, Clock, History, Edit2} from 'lucide-react';
 import { toast } from 'sonner';
 
 interface Shift {

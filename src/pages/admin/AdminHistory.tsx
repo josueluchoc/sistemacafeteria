@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../../supabaseClient';
 import AdminLayout from '../../components/admin/AdminLayout';
-import { Search, Calendar, Filter, Eye, X, ArrowDown, FileText } from 'lucide-react';
+import { Calendar, Filter, Eye, X, FileText } from 'lucide-react';
 import { toast } from 'sonner';
 import type { Order } from '../../types';
 
