@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* Estilo base para el Glassmorphism */
+body {
+  /* Un degradado suave y moderno que no cansa la vista */
+  background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  /* Si prefieres algo con más color estilo Apple, usa este: */
+  /* background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+
+  /* Asegura que ocupe toda la altura */
+  min-height: 100vh;
+  font-family: 'Urbanist', sans-serif;
+}
+
+/* Opcional: Un fondo de imagen abstracto si prefieres */
+.bg-mesh {
+  background-color: #9aadff;
+  background-image: linear-gradient(0deg, #9aadff 0%, #fecfef 99%, #fecfef 100%);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
