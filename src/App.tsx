@@ -16,7 +16,7 @@ import AdminTables from './pages/admin/AdminTables';
 import AdminUsers from './pages/admin/AdminUsers';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import AdminHistory from './pages/admin/AdminHistory'; // <--- Importar
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 
 // Componentes Placeholder (Temporales)
 
@@ -112,9 +112,9 @@ function App() {
 
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+          <Analytics />
         </Router>
       </CartProvider>
-      <Analytics />
     </AuthProvider>
 
   );
