@@ -16,11 +16,13 @@ import AdminTables from './pages/admin/AdminTables';
 import AdminUsers from './pages/admin/AdminUsers';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import AdminHistory from './pages/admin/AdminHistory'; // <--- Importar
+import { Analytics } from "@vercel/analytics/next"
 
 // Componentes Placeholder (Temporales)
 
 function App() {
   return (
+    
     <AuthProvider>
       <CartProvider> {/* <--- Envolvemos la app con el CartProvider */}
         <Router>
@@ -112,7 +114,9 @@ function App() {
           </Routes>
         </Router>
       </CartProvider>
+      <Analytics />
     </AuthProvider>
+
   );
 }
 
